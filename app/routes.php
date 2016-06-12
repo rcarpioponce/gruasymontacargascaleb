@@ -23,3 +23,6 @@ Route::get('/servicios', function(){
 Route::get('/contacto', function(){
 	return View::make('web.contacto.index');
 });
+Route::post('/contacto', function(){
+	return View::make('web.contacto.index');
+});
